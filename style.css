@@ -1,85 +1,90 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;600&family=Poppins:wght@700&display=swap');
 
-body{
-  color: #5F7161;
-  background-color: #EFEAD8;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 20px;
-  line-height: 1;
-}
-
-h1{
-  color: #203239;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 25px;
-  line-height: 1.5;
-}
-
-h2{
-  color: #826F66;
-  font-family: 'PT Sans', sans-serif;
-  font-size: 25px;
-  line-height: 1;
-}
-
-p{
-  color: #826F66;
-  font-family: 'PT Sans', sans-serif;
-  font-size: 20px;
-  line-height: 1.5;
-}
-
-a {
-  color: #C69B7B;
-  text-decoration: none;
-  font-size: 15px;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-#abc {
-  width: 150px;
-  height: 150px;
-  border-radius: 150px;
-}
-
-.container {
-  width: 500px;
-  margin: 0 auto;
-}
-
-.card {
-  background: #F8ECD1;
-  margin: 25px;
-  padding: 15px;
-  border-radius: 4px;
-  box-shadow: 0 10px 30px rgba(0,0,0,.1);
-}
-
-.text-center{
-  text-align: center;
-}
-
-.img-circle{
-  border-radius: 10px;
-}
-
-@media (max-width: 960px){
-  .container {
+@media (max-width: 960px) {
+  .container{
     width: 700px;
   }
 }
 
-@media (max-width: 720px){
-  .container {
+@media (max-width: 720px) {
+  .container{
     width: 500px;
   }
 }
 
-@media (max-width: 540px){
-  .container {
+@media (max-width: 540px) {
+  .container{
     width: 300px;
   }
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: rgb(240, 240, 240);
+}
+
+h1,h2 {
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  color: #8E3200;
+}
+
+h2 {
+  color: #A64B2A;
+}
+
+a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #826F66;
+}
+
+a:hover {
+  color: #A64B2A;
+}
+
+.card-white {
+  background-color: #f7e8e1;
+  padding: 24px;
+  margin: 40px;
+  box-shadow: 0 2.5px 10px rgb(0 0 0 / 15%);
+  width: 500px;
+  margin: 24px auto;
+  text-align: center;
+  border-radius: 32px;
+}
+
+.img-circle {
+  width: 240px;
+  border-radius: 50px;
+}
+
+.btn-red {
+  background-color: #8E3200 ;
+  color: white;
+  padding: 8px 24px;
+  border-radius: 16px;
+  box-shadow: 0 2.5px 10px rgb(0 0 0 / 15%);
+}
+
+.btn-red:hover {
+  background-color: #A64B2A;
+  color: white;
+  box-shadow: 0 5px 5px rgb(0 0 0 / 15%);
+}
+
+.list-inline {
+  list-style: none;
+  padding: 0;
+}
+
+.list-inline li {
+  display: inline-block;
+}
+
+.social-icon {
+  font-size: 32px;
+  margin: 8px 8px;
 }
